@@ -1,0 +1,11 @@
+{
+  "records": [
+    {
+      "resource_id": "tombstone_4",
+      "recorded_at": "2026-09-03T09:00:00Z",
+      "user_id": "user_1",
+      "name": "Example Person",
+      "email": "tombstone_pii@example.test"
+    }
+  ]
+}

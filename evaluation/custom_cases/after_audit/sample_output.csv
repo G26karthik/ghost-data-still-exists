@@ -1,0 +1,2 @@
+case_id,deletion_status,steps_json
+after_audit,COMPLETE,"[{""step_no"":1,""phase"":""VERIFICATION"",""system_id"":""search_service"",""resource_id"":""search_2"",""operation"":""VERIFY_RECORD_ABSENT"",""state"":""ABSENT"",""evidence_id"":""evidence_01""}]"

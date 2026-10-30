@@ -1,0 +1,2 @@
+case_id,email,requested_at,reported_status,reported_at,audit_at,request_text
+tombstone_pii,tombstone_pii@example.test,2026-09-01T08:00:00Z,COMPLETE,2026-09-02T10:00:00Z,2026-09-03T10:00:00Z,Delete my data but retain the account reference required by policy.

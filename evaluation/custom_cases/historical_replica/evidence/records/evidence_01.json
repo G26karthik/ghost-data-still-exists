@@ -1,0 +1,18 @@
+{
+  "records": [
+    {
+      "resource_id": "search_1",
+      "recorded_at": "2026-09-03T08:00:00Z",
+      "email": "old@example.test",
+      "result": "NOT_FOUND",
+      "table": "customer_search_primary"
+    },
+    {
+      "resource_id": "search_1",
+      "recorded_at": "2026-09-03T08:05:00Z",
+      "email": "old@example.test",
+      "result": "FOUND",
+      "table": "customer_search_read_replica"
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+case_id,deletion_status,steps_json
+timed_analytics,COMPLETE,"[{""step_no"":1,""phase"":""VERIFICATION"",""system_id"":""account_service"",""resource_id"":""account_5"",""operation"":""VERIFY_RECORD_ABSENT"",""state"":""ABSENT"",""evidence_id"":""evidence_01""},{""step_no"":2,""phase"":""VERIFICATION"",""system_id"":""analytics_platform"",""resource_id"":""analytics_5"",""operation"":""VERIFY_RECORD_ANONYMIZED"",""state"":""ANONYMIZED"",""evidence_id"":""evidence_01""}]"

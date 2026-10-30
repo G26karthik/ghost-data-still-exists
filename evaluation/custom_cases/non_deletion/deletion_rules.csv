@@ -1,0 +1,16 @@
+rule_id,data_category,condition,required_action
+rule_01,USER_PROFILE,Always,DELETE
+rule_02,SECONDARY_IDENTIFIER,Always,DELETE
+rule_03,SEARCH_INDEX_ENTRY,Always,DELETE
+rule_04,CACHE_ENTRY,Always,DELETE
+rule_05,SUPPORT_MESSAGE,Thread mixes customer and agent content that others still need,REDACT
+rule_06,SUPPORT_ATTACHMENT,Only the requesting person is referenced by the file,DELETE
+rule_07,ANALYTICS_PROFILE,Row can still be traced back to a person,ANONYMIZE
+rule_08,PRODUCT_TELEMETRY,Row can still be traced back to a person,ANONYMIZE
+rule_09,USER_EXPORT,Always,DELETE
+rule_10,MARKETING_PROFILE,Always,DELETE
+rule_11,EMAIL_DELIVERY_LOG,Log line contains an email address,REDACT
+rule_12,SECURITY_AUDIT_LOG,Entry is inside its retention window,RETAIN
+rule_13,LEGAL_HOLD_RECORD,A legal hold is active,RETAIN
+rule_14,BACKUP_ARCHIVE,Restores of the archive can be blocked,RETAIN
+rule_15,ACCOUNT_TOMBSTONE,Account is deleted and only the internal user_id is kept so retained records still resolve,REDACT

@@ -1,0 +1,10 @@
+{
+  "records": [
+    {
+      "resource_id": "search_2",
+      "recorded_at": "2026-09-03T11:00:00Z",
+      "email": "after_audit@example.test",
+      "result": "FOUND"
+    }
+  ]
+}

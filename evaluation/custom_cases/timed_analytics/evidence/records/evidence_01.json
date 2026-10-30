@@ -1,0 +1,14 @@
+{
+  "records": [
+    {
+      "resource_id": "account_5",
+      "recorded_at": "2026-09-03T09:00:00Z",
+      "result": "NOT_FOUND"
+    },
+    {
+      "resource_id": "analytics_5",
+      "recorded_at": "2026-09-03T09:00:00Z",
+      "result": "ANONYMIZED"
+    }
+  ]
+}

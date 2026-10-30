@@ -1,0 +1,2 @@
+user_id,name,email,phone,email_hash,updated_at
+user_1,Example Person,tombstone_pii@example.test,+1 202 555 0110,cd57078353d71111b6b13fcb057d16132c8fd53c40bdac485ee453eeed86dda1,2026-09-01T08:00:00Z

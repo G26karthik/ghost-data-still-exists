@@ -1,0 +1,2 @@
+user_id,name,email,phone,email_hash,updated_at
+user_1,Example Person,after_audit@example.test,+1 202 555 0110,5d8c5392115cd969f9cacf084a40a6b4df7440f53bfc51eee33350cd5df37197,2026-09-01T08:00:00Z

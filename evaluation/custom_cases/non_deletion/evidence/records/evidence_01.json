@@ -1,0 +1,10 @@
+{
+  "records": [
+    {
+      "resource_id": "account_3",
+      "recorded_at": "2026-09-03T09:00:00Z",
+      "email": "non_deletion@example.test",
+      "result": "FOUND"
+    }
+  ]
+}

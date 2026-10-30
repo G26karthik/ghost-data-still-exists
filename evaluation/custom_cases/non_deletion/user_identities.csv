@@ -1,0 +1,2 @@
+user_id,name,email,phone,email_hash,updated_at
+user_1,Example Person,non_deletion@example.test,+1 202 555 0110,c5d0120a6dcebb4b54a8d2dd2082ac2469e3e8bb86d4ca078ea38fb67a5ce6d9,2026-09-01T08:00:00Z
