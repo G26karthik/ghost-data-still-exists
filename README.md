@@ -26,6 +26,8 @@ This agent does the audit nobody ran. For each deletion request it works out who
 
 A workflow's own "Complete" is treated as a claim, never as evidence. So is a worker log that says `SUCCESS`.
 
+New here and wondering how this was approached? Read [docs/APPROACH.md](docs/APPROACH.md) first. It follows the thinking in order, including what failed.
+
 ## How it works
 
 An LLM investigates through read-only tools and writes the plan itself. A deterministic gate decides what is allowed through. Neither is trusted alone: the model is better at reading messy evidence, the engine is better at being right the same way twice.
@@ -93,7 +95,7 @@ The model never sees the engine's answer. `policy_lookup(category, state_at_audi
 
 **Bounded and replayable.** Eight workers, a hard USD budget cap, a per-call timeout, a provider circuit breaker, and a request-hash cache so a finished run replays byte for byte with zero provider calls.
 
-More detail on each, with the module that owns it, is in [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
+More detail on each, with the module that owns it, is in [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md). How the work was run, including audits, memory and resource limits, and packaging, is in [docs/APPROACH.md](docs/APPROACH.md).
 
 ## Results
 
@@ -185,6 +187,10 @@ docs/                   architecture and results
 ## What isn't here
 
 The challenge dataset, the reviewed model-response caches derived from it, the predictions file, run logs and session transcripts. Those either belong to HackerRank or contain material derived from their data. The source, tests and synthetic cases are the whole system; without the caches, a full run needs the dataset and an API key rather than an offline replay.
+
+## License
+
+Source-available for reading and learning, not open source. You are welcome to study it, run it locally and write about the ideas. Copying, modifying or reusing the code is not permitted. See [LICENSE](LICENSE). The techniques are yours to learn from; the implementation should be your own.
 
 ## Credits
 
