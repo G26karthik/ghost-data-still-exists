@@ -1,0 +1,17 @@
+# credentials
+.env
+.env.*
+!.env.example
+
+# competition data and run artefacts
+dataset/
+runs/
+output.csv
+code.zip
+log.txt
+
+# python
+__pycache__/
+.pytest_cache/
+.venv/
+*.pyc
