@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 372" width="940" height="372" role="img" aria-label="A 60-second dial showing fixed offsets of worker actions" font-family="Inter, 'Segoe UI', system-ui, -apple-system, sans-serif">
+<rect width="940" height="372" rx="14" fill="#0b1017"/>
+<text x="30" y="40" font-size="17" fill="#e6edf3" font-weight="700" text-anchor="start">Anonymous records are matched by worker timing</text>
+<text x="30" y="62" font-size="13" fill="#8da2b8" font-weight="400" text-anchor="start">Each action type lands at a fixed second of the minute relative to the batch's account delete.</text>
+<circle cx="250" cy="218" r="118" fill="#111a24" stroke="#2a3a4d" stroke-width="2"/>
+<line x1="250.0" y1="110.0" x2="250.0" y2="100.0" stroke="#2a3a4d" stroke-width="2"/>
+<line x1="261.8" y1="105.6" x2="262.3" y2="100.6" stroke="#2a3a4d" stroke-width="1"/>
+<line x1="273.5" y1="107.5" x2="274.5" y2="102.6" stroke="#2a3a4d" stroke-width="1"/>
+<line x1="284.9" y1="110.5" x2="286.5" y2="105.8" stroke="#2a3a4d" stroke-width="1"/>
+<line x1="296.0" y1="114.8" x2="298.0" y2="110.2" stroke="#2a3a4d" stroke-width="1"/>
+<line x1="304.0" y1="124.5" x2="309.0" y2="115.8" stroke="#2a3a4d" stroke-width="2"/>
+<line x1="316.4" y1="126.6" x2="319.4" y2="122.5" stroke="#2a3a4d" stroke-width="1"/>
+<line x1="325.6" y1="134.0" x2="329.0" y2="130.3" stroke="#2a3a4d" stroke-width="1"/>
+<line x1="334.0" y1="142.4" x2="337.7" y2="139.0" stroke="#2a3a4d" stroke-width="1"/>
+<line x1="341.4" y1="151.6" x2="345.5" y2="148.6" stroke="#2a3a4d" stroke-width="1"/>
+<line x1="343.5" y1="164.0" x2="352.2" y2="159.0" stroke="#2a3a4d" stroke-width="2"/>
+<line x1="353.2" y1="172.0" x2="357.8" y2="170.0" stroke="#2a3a4d" stroke-width="1"/>
+<line x1="357.5" y1="183.1" x2="362.2" y2="181.5" stroke="#2a3a4d" stroke-width="1"/>
+<line x1="360.5" y1="194.5" x2="365.4" y2="193.5" stroke="#2a3a4d" stroke-width="1"/>
+<line x1="362.4" y1="206.2" x2="367.4" y2="205.7" stroke="#2a3a4d" stroke-width="1"/>
+<line x1="358.0" y1="218.0" x2="368.0" y2="218.0" stroke="#2a3a4d" stroke-width="2"/>
+<line x1="362.4" y1="229.8" x2="367.4" y2="230.3" stroke="#2a3a4d" stroke-width="1"/>
+<line x1="360.5" y1="241.5" x2="365.4" y2="242.5" stroke="#2a3a4d" stroke-width="1"/>
+<line x1="357.5" y1="252.9" x2="362.2" y2="254.5" stroke="#2a3a4d" stroke-width="1"/>
+<line x1="353.2" y1="264.0" x2="357.8" y2="266.0" stroke="#2a3a4d" stroke-width="1"/>
+<line x1="343.5" y1="272.0" x2="352.2" y2="277.0" stroke="#2a3a4d" stroke-width="2"/>
+<line x1="341.4" y1="284.4" x2="345.5" y2="287.4" stroke="#2a3a4d" stroke-width="1"/>
+<line x1="334.0" y1="293.6" x2="337.7" y2="297.0" stroke="#2a3a4d" stroke-width="1"/>
+<line x1="325.6" y1="302.0" x2="329.0" y2="305.7" stroke="#2a3a4d" stroke-width="1"/>
+<line x1="316.4" y1="309.4" x2="319.4" y2="313.5" stroke="#2a3a4d" stroke-width="1"/>
+<line x1="304.0" y1="311.5" x2="309.0" y2="320.2" stroke="#2a3a4d" stroke-width="2"/>
+<line x1="296.0" y1="321.2" x2="298.0" y2="325.8" stroke="#2a3a4d" stroke-width="1"/>
+<line x1="284.9" y1="325.5" x2="286.5" y2="330.2" stroke="#2a3a4d" stroke-width="1"/>
+<line x1="273.5" y1="328.5" x2="274.5" y2="333.4" stroke="#2a3a4d" stroke-width="1"/>
+<line x1="261.8" y1="330.4" x2="262.3" y2="335.4" stroke="#2a3a4d" stroke-width="1"/>
+<line x1="250.0" y1="326.0" x2="250.0" y2="336.0" stroke="#2a3a4d" stroke-width="2"/>
+<line x1="238.2" y1="330.4" x2="237.7" y2="335.4" stroke="#2a3a4d" stroke-width="1"/>
+<line x1="226.5" y1="328.5" x2="225.5" y2="333.4" stroke="#2a3a4d" stroke-width="1"/>
+<line x1="215.1" y1="325.5" x2="213.5" y2="330.2" stroke="#2a3a4d" stroke-width="1"/>
+<line x1="204.0" y1="321.2" x2="202.0" y2="325.8" stroke="#2a3a4d" stroke-width="1"/>
+<line x1="196.0" y1="311.5" x2="191.0" y2="320.2" stroke="#2a3a4d" stroke-width="2"/>
+<line x1="183.6" y1="309.4" x2="180.6" y2="313.5" stroke="#2a3a4d" stroke-width="1"/>
+<line x1="174.4" y1="302.0" x2="171.0" y2="305.7" stroke="#2a3a4d" stroke-width="1"/>
+<line x1="166.0" y1="293.6" x2="162.3" y2="297.0" stroke="#2a3a4d" stroke-width="1"/>
+<line x1="158.6" y1="284.4" x2="154.5" y2="287.4" stroke="#2a3a4d" stroke-width="1"/>
+<line x1="156.5" y1="272.0" x2="147.8" y2="277.0" stroke="#2a3a4d" stroke-width="2"/>
+<line x1="146.8" y1="264.0" x2="142.2" y2="266.0" stroke="#2a3a4d" stroke-width="1"/>
+<line x1="142.5" y1="252.9" x2="137.8" y2="254.5" stroke="#2a3a4d" stroke-width="1"/>
+<line x1="139.5" y1="241.5" x2="134.6" y2="242.5" stroke="#2a3a4d" stroke-width="1"/>
+<line x1="137.6" y1="229.8" x2="132.6" y2="230.3" stroke="#2a3a4d" stroke-width="1"/>
+<line x1="142.0" y1="218.0" x2="132.0" y2="218.0" stroke="#2a3a4d" stroke-width="2"/>
+<line x1="137.6" y1="206.2" x2="132.6" y2="205.7" stroke="#2a3a4d" stroke-width="1"/>
+<line x1="139.5" y1="194.5" x2="134.6" y2="193.5" stroke="#2a3a4d" stroke-width="1"/>
+<line x1="142.5" y1="183.1" x2="137.8" y2="181.5" stroke="#2a3a4d" stroke-width="1"/>
+<line x1="146.8" y1="172.0" x2="142.2" y2="170.0" stroke="#2a3a4d" stroke-width="1"/>
+<line x1="156.5" y1="164.0" x2="147.8" y2="159.0" stroke="#2a3a4d" stroke-width="2"/>
+<line x1="158.6" y1="151.6" x2="154.5" y2="148.6" stroke="#2a3a4d" stroke-width="1"/>
+<line x1="166.0" y1="142.4" x2="162.3" y2="139.0" stroke="#2a3a4d" stroke-width="1"/>
+<line x1="174.4" y1="134.0" x2="171.0" y2="130.3" stroke="#2a3a4d" stroke-width="1"/>
+<line x1="183.6" y1="126.6" x2="180.6" y2="122.5" stroke="#2a3a4d" stroke-width="1"/>
+<line x1="196.0" y1="124.5" x2="191.0" y2="115.8" stroke="#2a3a4d" stroke-width="2"/>
+<line x1="204.0" y1="114.8" x2="202.0" y2="110.2" stroke="#2a3a4d" stroke-width="1"/>
+<line x1="215.1" y1="110.5" x2="213.5" y2="105.8" stroke="#2a3a4d" stroke-width="1"/>
+<line x1="226.5" y1="107.5" x2="225.5" y2="102.6" stroke="#2a3a4d" stroke-width="1"/>
+<line x1="238.2" y1="105.6" x2="237.7" y2="100.6" stroke="#2a3a4d" stroke-width="1"/>
+<text x="250.0" y="131.0" font-size="12" fill="#8da2b8" font-weight="500" text-anchor="middle">0s</text>
+<text x="342.0" y="223.0" font-size="12" fill="#8da2b8" font-weight="500" text-anchor="middle">15s</text>
+<text x="250.0" y="315.0" font-size="12" fill="#8da2b8" font-weight="500" text-anchor="middle">30s</text>
+<text x="158.0" y="223.0" font-size="12" fill="#8da2b8" font-weight="500" text-anchor="middle">45s</text>
+<line x1="250" y1="218" x2="250.0" y2="100.0" stroke="#e6edf3" stroke-width="1.6" opacity=".55"/>
+<circle cx="250.0" cy="100.0" r="6.5" fill="#e6edf3"/>
+<line x1="250" y1="218" x2="349.0" y2="153.7" stroke="#b48cf2" stroke-width="1.6" opacity=".55"/>
+<circle cx="349.0" cy="153.7" r="6.5" fill="#b48cf2"/>
+<line x1="250" y1="218" x2="355.1" y2="164.4" stroke="#58a6ff" stroke-width="1.6" opacity=".55"/>
+<circle cx="355.1" cy="164.4" r="6.5" fill="#58a6ff"/>
+<line x1="250" y1="218" x2="151.0" y2="282.3" stroke="#f2b441" stroke-width="1.6" opacity=".55"/>
+<circle cx="151.0" cy="282.3" r="6.5" fill="#f2b441"/>
+<line x1="250" y1="218" x2="144.9" y2="271.6" stroke="#3fb68b" stroke-width="1.6" opacity=".55"/>
+<circle cx="144.9" cy="271.6" r="6.5" fill="#3fb68b"/>
+<line x1="250" y1="218" x2="158.3" y2="143.7" stroke="#ff6b6b" stroke-width="1.6" opacity=".55"/>
+<circle cx="158.3" cy="143.7" r="6.5" fill="#ff6b6b"/>
+<circle cx="250" cy="218" r="5" fill="#e6edf3"/>
+<text x="470" y="90" font-size="12" fill="#8da2b8" font-weight="600" text-anchor="start">Offset from the account delete</text>
+<circle cx="480" cy="116" r="6" fill="#e6edf3"/>
+<text x="500" y="121" font-size="13" fill="#e6edf3" font-weight="700" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Consolas, monospace">+0 s</text>
+<text x="566" y="121" font-size="14" fill="#e6edf3" font-weight="500" text-anchor="start">account DELETE</text>
+<circle cx="480" cy="150" r="6" fill="#b48cf2"/>
+<text x="500" y="155" font-size="13" fill="#b48cf2" font-weight="700" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Consolas, monospace">+9.5 s</text>
+<text x="566" y="155" font-size="14" fill="#e6edf3" font-weight="500" text-anchor="start">restore block</text>
+<circle cx="480" cy="184" r="6" fill="#58a6ff"/>
+<text x="500" y="189" font-size="13" fill="#58a6ff" font-weight="700" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Consolas, monospace">+10.5 s</text>
+<text x="566" y="189" font-size="14" fill="#e6edf3" font-weight="500" text-anchor="start">support redaction</text>
+<circle cx="480" cy="218" r="6" fill="#f2b441"/>
+<text x="500" y="223" font-size="13" fill="#f2b441" font-weight="700" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Consolas, monospace">+39.5 s</text>
+<text x="566" y="223" font-size="14" fill="#e6edf3" font-weight="500" text-anchor="start">flow disable</text>
+<circle cx="480" cy="252" r="6" fill="#3fb68b"/>
+<text x="500" y="257" font-size="13" fill="#3fb68b" font-weight="700" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Consolas, monospace">+40.5 s</text>
+<text x="566" y="257" font-size="14" fill="#e6edf3" font-weight="500" text-anchor="start">analytics, tombstone, legal hold</text>
+<circle cx="480" cy="286" r="6" fill="#ff6b6b"/>
+<text x="500" y="291" font-size="13" fill="#ff6b6b" font-weight="700" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Consolas, monospace">+51.5 s</text>
+<text x="566" y="291" font-size="14" fill="#e6edf3" font-weight="500" text-anchor="start">first follow-up</text>
+<text x="470" y="330" font-size="13" fill="#e6edf3" font-weight="600" text-anchor="start">Match = within 0.75 s. Ties stay ties.</text>
+<text x="470" y="352" font-size="12.5" fill="#8da2b8" font-weight="400" text-anchor="start">A fit is a correlation, never proof of who owns the record.</text>
+</svg>

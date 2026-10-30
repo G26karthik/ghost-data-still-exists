@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360" role="img" aria-label="Ghost Data Still Exists: an audit agent for personal-data deletion" font-family="Inter, 'Segoe UI', system-ui, -apple-system, sans-serif">
+<rect width="1200" height="360" rx="14" fill="#0b1017"/>
+<rect x="610" y="46" width="550" height="268" rx="12" fill="#111a24" stroke="#2a3a4d"/>
+<text x="632" y="78" font-size="12" fill="#8da2b8" font-weight="600" text-anchor="start">AUDIT AT 2026-09-03T10:00Z</text>
+<rect x="1010" y="62" width="130" height="24" rx="12" fill="none" stroke="#8da2b8" stroke-dasharray="4 3"/>
+<text x="1075" y="79" font-size="11" fill="#8da2b8" font-weight="500" text-anchor="middle">dashboard: Complete</text>
+<line x1="1020" y1="74" x2="1130" y2="74" stroke="#ff6b6b" stroke-width="2"/>
+<rect x="628" y="108" width="514" height="32" rx="7" fill="#0d151e"/>
+<circle cx="646" cy="124" r="5" fill="#3fb68b"/>
+<text x="662" y="129" font-size="12" fill="#e6edf3" font-weight="500" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Consolas, monospace">account_service / account_5</text>
+<text x="1005" y="129" font-size="12" fill="#3fb68b" font-weight="700" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Consolas, monospace">ABSENT</text>
+<text x="1130" y="129" font-size="11" fill="#8da2b8" font-weight="400" text-anchor="end">verified</text>
+<rect x="628" y="148" width="514" height="32" rx="7" fill="#0d151e"/>
+<circle cx="646" cy="164" r="5" fill="#ff6b6b"/>
+<text x="662" y="169" font-size="12" fill="#e6edf3" font-weight="500" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Consolas, monospace">search_service / search_1</text>
+<text x="1005" y="169" font-size="12" fill="#ff6b6b" font-weight="700" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Consolas, monospace">PRESENT</text>
+<text x="1130" y="169" font-size="11" fill="#8da2b8" font-weight="400" text-anchor="end">replica still has it</text>
+<rect x="628" y="188" width="514" height="32" rx="7" fill="#0d151e"/>
+<circle cx="646" cy="204" r="5" fill="#ff6b6b"/>
+<text x="662" y="209" font-size="12" fill="#e6edf3" font-weight="500" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Consolas, monospace">analytics_platform / analytics_5</text>
+<text x="1005" y="209" font-size="12" fill="#ff6b6b" font-weight="700" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Consolas, monospace">PRESENT</text>
+<text x="1130" y="209" font-size="11" fill="#8da2b8" font-weight="400" text-anchor="end">still attributable</text>
+<rect x="628" y="228" width="514" height="32" rx="7" fill="#0d151e"/>
+<circle cx="646" cy="244" r="5" fill="#f2b441"/>
+<text x="662" y="249" font-size="12" fill="#e6edf3" font-weight="500" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Consolas, monospace">integration_service / data_flow_2</text>
+<text x="1005" y="249" font-size="12" fill="#f2b441" font-weight="700" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Consolas, monospace">ACTIVE</text>
+<text x="1130" y="249" font-size="11" fill="#8da2b8" font-weight="400" text-anchor="end">sync can recreate it</text>
+<rect x="628" y="268" width="514" height="32" rx="7" fill="#0d151e"/>
+<circle cx="646" cy="284" r="5" fill="#f2b441"/>
+<text x="662" y="289" font-size="12" fill="#e6edf3" font-weight="500" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Consolas, monospace">backup_service / backup_9</text>
+<text x="1005" y="289" font-size="12" fill="#f2b441" font-weight="700" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Consolas, monospace">ACTIVE</text>
+<text x="1130" y="289" font-size="11" fill="#8da2b8" font-weight="400" text-anchor="end">restore not blocked</text>
+<text x="64" y="120" font-size="58" fill="#e6edf3" font-weight="800" text-anchor="start">Ghost Data</text>
+<text x="64" y="184" font-size="58" fill="#3fb68b" font-weight="800" text-anchor="start">Still Exists</text>
+<text x="66" y="226" font-size="16" fill="#8da2b8" font-weight="400" text-anchor="start">An audit agent that checks whether "deleted" actually means deleted.</text>
+<text x="66" y="262" font-size="14" fill="#5f7690" font-weight="500" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Consolas, monospace">identity  /  state at the cutoff  /  restore paths  /  an ordered fix</text>
+</svg>
