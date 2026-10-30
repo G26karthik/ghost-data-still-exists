@@ -24,7 +24,6 @@ POLICY_OFFSETS = {
 
 
 def diagnose(dataset: Path) -> tuple[dict, dict, dict]:
-    # ponytail: independent source-linked timing checks are tallied in one source pass.
     manifest = read_csv(dataset / "evidence_files.csv")
     vision, _fresh = transcribe_all(dataset, manifest, Path("runs/final"), offline=True)
     observations, _coverage, _manifest = load(dataset, vision)

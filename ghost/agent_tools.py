@@ -128,7 +128,6 @@ class AgentTools:
                     fact["unresolved"], fact["authorized"])[0]
 
     def call(self, name: str, args: dict, seen: dict[str, set[str]]) -> dict:
-        # ponytail: explicit dispatch keeps all eight read-only tool contracts visible.
         if name == "policy_lookup":
             category, current = args["category"], args["state_at_audit"]
             terminal = {"DELETE": "ABSENT", "REDACT": "REDACTED", "ANONYMIZE": "ANONYMIZED"}
@@ -273,7 +272,6 @@ class AgentTools:
     def alternate_plan(self, cid: str, activity_id: str,
                        evidence_ids: list[str]) -> tuple[dict | None, str]:
         """Admit a different batch account only with a unique source or activity link."""
-        # ponytail: exclusivity, proof, and recomputation stay together to avoid a partial swap.
         fact = self.facts[cid]
         candidates = (self.assignments.candidates or {}).get(cid, [])
         chosen = next((row for row in candidates if row["activity_id"] == activity_id), None)

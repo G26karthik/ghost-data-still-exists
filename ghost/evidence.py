@@ -87,7 +87,6 @@ def unpack_record(record: dict) -> dict:
 
 
 def json_observations(file_id: str, captured: str, path: Path) -> list[Observation]:
-    # ponytail: each branch corresponds to one participant JSON envelope.
     obj = json.loads(path.read_text(encoding="utf-8-sig"))
     out = []
     def add(record: dict, system: str = "", at: str = "", scope: str = "") -> None:
@@ -136,7 +135,6 @@ def json_observations(file_id: str, captured: str, path: Path) -> list[Observati
 
 
 def sql_observations(file_id: str, captured: str, path: Path) -> list[Observation]:
-    # ponytail: this function owns the confined SQL snapshot and its scope rows.
     con = sqlite3.connect(":memory:")
     con.row_factory = sqlite3.Row
     con.enable_load_extension(False)
@@ -238,7 +236,6 @@ def _log_line(line: str) -> dict[str, Any] | None:
 
 
 def log_observations(file_id: str, captured: str, path: Path) -> list[Observation]:
-    # ponytail: trace grouping keeps subject tokens with all same-trace resources.
     raw = path.read_text(encoding="utf-8-sig", errors="replace").splitlines()
     lines = [_log_line(line) for line in raw]
     skipped = sum(bool(line.strip()) and parsed is None for line, parsed in zip(raw, lines))
@@ -381,7 +378,6 @@ def image_crosscheck(path: Path, records: list[dict]) -> list[str] | None:
 def load(dataset: Path, vision_records: dict[str, list[dict]] | None = None,
          ocr_crosscheck: bool = False) -> tuple[list[Observation], Counter, list[dict]]:
     """Load every manifest source once; return observations and per-file coverage."""
-    # ponytail: a single manifest dispatch preserves per-source coverage and errors.
     manifest = read_csv(dataset / "evidence_files.csv")
     observations = []
     coverage = Counter()

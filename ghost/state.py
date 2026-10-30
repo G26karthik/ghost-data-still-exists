@@ -130,7 +130,6 @@ def has_direct_identifiers(fields: dict) -> bool:
 
 
 def state(obs: Observation, cat: str) -> str:
-    # ponytail: ordered category-specific rules map one source observation to one state.
     f = obs.fields
     result = str(f.get("result") or f.get("state") or "").upper()
     if result in ABSENT_RESULTS or f.get("status_code") == 404 or str(f.get("http_status")) == "404":
@@ -190,7 +189,6 @@ def physical_scope(obs: Observation) -> str:
 
 def resources(request: dict, subject_tokens: set[str], observations: list[Observation],
               activity: tuple | list[dict] = ()) -> tuple[list[tuple], list[tuple[str, str]], list[tuple]]:
-    # ponytail: one audit-cutoff pass selects the latest state for each physical copy.
     requested = time(request["requested_at"])
     audit = time(request["audit_at"])
     linked = defaultdict(list)

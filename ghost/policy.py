@@ -26,7 +26,6 @@ def load_rules(dataset: Path) -> dict[str, dict]:
 
 def treatment(category: str, current: str, fields: dict, rules: dict[str, dict]) -> tuple[tuple[str, str] | None, tuple[str, str] | None, tuple[str, str] | None, str]:
     """Return finding, remediation, verification and an unresolved condition note."""
-    # ponytail: category branches directly mirror the supplied treatment table.
     if category != "DATA_FLOW" and category not in rules:
         return None, None, None, "category absent from policy"
     if current == "UNKNOWN":

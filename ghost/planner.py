@@ -38,7 +38,6 @@ def is_deletion_request(text: str) -> bool:
 def plan(request: dict, resources: list[tuple[str, str, str, str, Observation]],
          rules: dict[str, dict], unresolved: tuple | list = (),
          authorized: bool | None = None) -> tuple[dict, list[tuple[str, str]]]:
-    # ponytail: This cohesive function builds, orders, and numbers one official row.
     cid = request["case_id"]
     if not (is_deletion_request(request["request_text"]) if authorized is None else authorized):
         return {"case_id": cid, "deletion_status": "NOT_APPLICABLE", "steps_json": []}, []

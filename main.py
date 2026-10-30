@@ -26,7 +26,6 @@ from ghost.agent_tools import AgentTools
 def predict(dataset: Path, sample: bool = False, offline: bool = False,
             run_dir: Path = Path("runs/final"), ocr_crosscheck: bool = False,
             with_context: bool = False) -> tuple[Any, ...]:
-    # ponytail: build one shared evidence index and one cross-cohort worker assignment.
     samples = read_csv(dataset / "sample_deletion_requests.csv")
     evaluation = read_csv(dataset / "deletion_requests.csv")
     requests = samples if sample else evaluation
@@ -112,7 +111,6 @@ def save(rows: list[dict], path: Path) -> None:
 
 
 def main() -> int:
-    # ponytail: one CLI entry point shares the loaded evidence across batch, audit, and HTTP.
     sys.stdout.reconfigure(encoding="utf-8")
     started = time.perf_counter()
     parser = argparse.ArgumentParser()

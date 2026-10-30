@@ -79,7 +79,6 @@ def unique_action_target(request: dict, requests: list[dict], found: list, activ
 def correlate(requests: list[dict], identities: IdentityIndex,
               observations: list[Observation], activity: list[dict]) -> Assignments:
     """Resolve batch targets from measured second offsets and independent identity links."""
-    # ponytail: one fixed-point pass owns global account exclusivity and policy action claims.
     by_resource = defaultdict(list)
     for obs in observations:
         if obs.resource_id:

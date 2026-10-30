@@ -32,7 +32,6 @@ STATES = {
 
 def validate(rows: list[dict], requests: list[dict], manifest: list[dict],
              activity: tuple | list[dict] = ()) -> list[str]:
-    # ponytail: all independent mechanical contract checks stay in one pass.
     errors = []
     expected = {x["case_id"] for x in requests}
     observed = [x["case_id"] for x in rows]

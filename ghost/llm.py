@@ -35,7 +35,6 @@ def _hash(model: str, instructions: str, content: Any, schema: dict) -> str:
 def ask(kind: str, model: str, instructions: str, content: Any, schema: dict,
         run_dir: Path, offline: bool = False, max_output: int = 5000) -> tuple[dict, Path, bool]:
     """Return parsed JSON; write successful raw output and corrected result separately."""
-    # ponytail: one transport transaction owns cache identity, retry, and usage receipt.
     if model not in PRICES:
         raise ValueError(f"No verified price for {model}")
     digest = _hash(model, instructions, content, schema)

@@ -204,7 +204,6 @@ class AgentTransport:
         return self.client
 
     def ask(self, messages: list[dict]) -> tuple[list[dict], str]:
-        # ponytail: one transaction owns budget, provider usage, ledger, and cache ordering.
         try:
             case_flags = json.loads(messages[0]["content"])
         except (IndexError, KeyError, TypeError, ValueError):
@@ -309,7 +308,6 @@ class AgentRuntime:
         self.run_id = datetime.now(timezone.utc).isoformat()
 
     def run_case(self, cid: str) -> tuple[dict, dict]:
-        # ponytail: one bounded loop keeps the response, tool result, and fallback trace together.
         started = time.perf_counter()
         fact = self.tools.facts[cid]
         canonical = self.tools.canonical_plan(cid)

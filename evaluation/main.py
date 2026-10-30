@@ -21,7 +21,6 @@ def read(path: Path) -> dict[str, dict]:
 
 
 def score(predictions: Path, answers: Path) -> dict:
-    # ponytail: case, step, field, and sequence measures share one alignment pass.
     pred = read(predictions)
     gold = read(answers)
     if set(pred) != set(gold):
